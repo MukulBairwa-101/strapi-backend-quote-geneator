@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_quote_quotes",
+  "info": {
+    "displayName": "quote",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "quoteId": {
+      "type": "integer",
+      "unique": true
+    },
+    "title": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    }
+  }
+}

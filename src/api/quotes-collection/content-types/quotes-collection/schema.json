@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quotes_collections",
+  "info": {
+    "singularName": "quotes-collection",
+    "pluralName": "quotes-collections",
+    "displayName": "quotesCollection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quoteId": {
+      "type": "integer",
+      "required": true
+    },
+    "title": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    }
+  }
+}
