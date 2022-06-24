@@ -12,10 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "quoteId": {
-      "type": "integer",
-      "required": true
-    },
     "title": {
       "type": "text"
     },
